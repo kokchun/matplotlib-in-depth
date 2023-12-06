@@ -1,13 +1,22 @@
-# remove clutter
+figure.figsize: 8, 4
 
+# global font
+font.family: "avenir"
+
+lines.linewidth : 4
+
+# ------------ remove clutter ------------
 axes.spines.top: False
 axes.spines.right: False
-#axes.spines.bottom: False
-#axes.spines.left: False
 
-lines.linewidth : 3
+# ------------ tick colors ---------------
+xtick.color: "#6b7280"
+xtick.labelcolor: "#6b7280"
+ytick.color: "#6b7280"
+ytick.labelcolor: "#6b7280"
+axes.labelcolor: "#6b7280"
+axes.edgecolor: "#6b7280"
 
-
-xtick.labelcolor: "#374151"
-ytick.labelcolor: "#374151"
-axes.labelcolor: "#374151"
+# ------------ title ---------------------
+axes.titlesize : 18
+axes.titlecolor : "#374151"
